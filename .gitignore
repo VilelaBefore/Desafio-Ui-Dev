@@ -1,0 +1,8 @@
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+/development/vendor
+/development/css
+.idea/
+.DS_Store
