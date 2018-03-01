@@ -1,6 +1,7 @@
 # DESAFIO BEFORE
 
 Desafiamos você a implementar a segunte tela usando HTML e SASS.
+
 [Desafio Before - Figma :art:](https://www.figma.com/file/YmxTthj1kDiJIXerYaSp6zkX/Desafio_Before)
 > Você precisa ter uma conta do figma para inspecionar e exportar os assets (We :sparkling_heart: SVG)
 
