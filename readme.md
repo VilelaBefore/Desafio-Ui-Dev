@@ -31,14 +31,16 @@ Serviços oferecidos:
 Descontos por combinação podem ser fictícios.
 A operadora usa as seguintes cores e suas nuances:
 
-  ```CSS
-   #660099 // brand-color
-   #FF920D
-   #2ECD50
-   #F44336
-   #3682F4
-   + tons de cinza
-  ``` 
+![#660099](https://placehold.it/15/660099/000000?text=+) `#660099` // brand-color  
+![#F44336](https://placehold.it/15/F44336/000000?text=+) `#F44336`  
+![#FF920D](https://placehold.it/15/FF920D/000000?text=+) `#FF920D`  
+![#2ECD50](https://placehold.it/15/2ECD50/000000?text=+) `#2ECD50`  
+![#3682F4](https://placehold.it/15/3682F4/000000?text=+) `#3682F4`  
+e tons de cinsa
+
+
+Use a ferramenta gráfica de sua preferência, desde que seja possível visualizar o arquivo sem que seja necessário comprar uma licença. Pra garantir, você pode enviar as telas exportadas para o email maickell.vilela@before.com.br.
+> Aqui usamos o Figma :wink:
 
 
 ## Parte 2 - HTML + CSS
