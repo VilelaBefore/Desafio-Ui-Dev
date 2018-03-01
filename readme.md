@@ -19,7 +19,11 @@ Fizemos um setup inicial para você não se preocupar com a configuração e foc
     
     ``npm install``
     
-4. Iniciar o serviço de desenvolvimento:
+4. Instalar o grunt-cli globalmente:
+    
+    ``sudo npm i -g grunt-cli``
+    
+5. Iniciar o serviço de desenvolvimento:
 
     ``grunt serve``
 
