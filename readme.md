@@ -58,7 +58,7 @@ Fizemos um setup inicial para você não se preocupar com a configuração e foc
 
 2. Clonar o repositório:
 
-    ``git clone url...``
+    ``git clone https://github.com/VilelaBefore/Desafio-Ui-Dev.git``
     
 3. Instalar as dependências:
     
