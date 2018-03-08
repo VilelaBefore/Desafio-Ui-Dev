@@ -1,1 +1,89 @@
-// Your variables here!
+//   1. Global
+//   2. Tipography
+//   3. Button
+//   4. Listagem
+
+
+// 1. Global
+$categ-verde: #79C126;
+$categ-laranja: #FF9900;
+$categ-azul: #56CCF2;
+$categ-roxo: #660099;
+$background: #E5E5E5;
+$lido: #EBEBEB;
+$medium-gray: #4F4F4F;
+$dark-gray: #BDBDBD;
+$gray: #949494;
+$white: #ffffff;
+$font-light-gray: #828282;
+$global-width: 344px;
+$global-padding: 16px;
+$global-margin: 20px;
+$global-radius: 5px;
+$global-rounded: 500px;
+
+
+// 2. Tipography
+$global-font-color: $gray;
+$body-font-family: Open Sans, Lato, Verdana, Arial, sans-serif;
+$title-font-family: Lato, Verdana, Arial, sans-serif;
+$global-font-weight: normal;
+$header-color: inherit;
+$global-line-height: 1.6;
+$global-font-size: 20px;
+$h1-font-size: 20px;
+$h2-font-size: 14px;
+$h3-font-size: 13px;
+$h4-font-size: 12px;
+$h5-font-size: 11px;
+$h6-font-size: 10px;
+
+
+// 3. Button
+$button-color: $dark-gray;
+$button-color-select: $white;
+
+$button-background: $white;
+$button-background-verde: $categ-verde;
+$button-background-azul: $categ-azul;
+$button-background-laranja: $categ-laranja;
+$button-background-roxo: $categ-roxo;
+
+$button-font-weight: 100;
+$button-margin: 0 0 $global-margin 0;
+$button-border: 0.5px solid $dark-gray;
+$button-radius: 6px;
+$button-rounded: $global-rounded;
+
+
+// 4. Listagem
+$listagem-widht: 312px;
+$listagem-height: $listagem-widht/5;
+$listagem-border: none;
+$listagem-radius: 5px;
+$listagem-position: relative;
+
+$listagem-background: $white;
+$listagem-background-lido: opacity 40%;
+
+$listagem-titulo-font: $body-font-family;
+$listagem-titulo-weight: bold;
+$listagem-titulo-size: $h3-font-size;
+$listagem-titulo-position: absolute;
+
+$listagem-numero-font: $body-font-family;
+$listagem-numero-weight: bold;
+$listagem-numero-size: $h2-font-size;
+$listagem-numero-position: absolute;
+
+$listagem-categoria-font: $body-font-family;
+$listagem-categoria-weight: normal;
+$listagem-categoria-size: $h6-font-size;
+$listagem-categoria-position: absolute;
+
+$listagem-data-font: $body-font-family;
+$listagem-data-weight: normal;
+$listagem-data-size: $h5-font-size;
+$listagem-data-position: absolute;
+
+$listagem-box-shadow: 0px 3px 8px 0px rgba(51,51,51,0.1);

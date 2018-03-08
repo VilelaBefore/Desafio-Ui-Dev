@@ -1,0 +1,58 @@
+.titulo-principal {
+  font-family: $body-font-family;
+  font-size: $h4-font-size;
+  color: $gray;
+  //colocar no config
+}
+
+.titulo-comunicado {
+  font-family: $listagem-titulo-font;
+  font-weight: $listagem-titulo-weight;
+  font-size: $listagem-titulo-size;
+  position: $listagem-titulo-position;
+  color: $medium-gray;
+  //colocar no config
+  float: left;
+  top: 10px;
+  left: 20px;
+  margin: 0;
+}
+
+.numero-comunicado {
+  font-family: $listagem-numero-font;
+  font-weight: $listagem-numero-weight;
+  font-size: $listagem-numero-size;
+  position: $listagem-numero-position;
+  color: $medium-gray;
+  //colocar no config
+  float: right;
+  top: 10px;
+  right: 10px;
+  margin: 0;
+}
+
+.categoria-comunicado {
+  font-family: $listagem-categoria-font;
+  font-weight: $listagem-categoria-weight;
+  font-size: $listagem-categoria-size;
+  position: $listagem-categoria-position;
+  color: $medium-gray;
+  //colocar no config
+  float: left;
+  bottom: 10px;
+  left: 20px;
+  margin: 0;
+}
+
+.data-comunicado {
+  font-family: $listagem-data-font;
+  font-weight: $listagem-data-weight;
+  font-size: $listagem-data-size;
+  position: $listagem-data-position;
+  color: $font-light-gray;
+  //colocar no config
+  float: right;
+  bottom: 10px;
+  right: 10px;
+  margin: 0;
+}

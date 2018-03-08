@@ -1,0 +1,54 @@
+.comunicados {
+  width: 320px;
+  //colocar em config
+  height: 550px;
+  background-color: $background;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+
+  .lido-1 {
+    background-color: $lido;
+  }
+}
+
+.listagem-comunicados {
+  .comunicado-1 {
+    width: $listagem-widht;
+    height: $listagem-height;
+    border-radius: $listagem-radius;
+    box-shadow: $listagem-box-shadow;
+    position: $listagem-position;
+    background-color: $white;
+    //colocar em config
+    margin-bottom: 14px;
+    padding: 10px 10px 10px 15px;
+    box-sizing: border-box;
+  }
+}
+
+#download {
+  height: 120px;
+}
+
+@mixin borda($nome-borda, $background) {
+  .#{$nome-borda} {
+    background-color: $background;
+  }
+}
+
+.lido {
+  //colocar em config
+  opacity: 40%;
+}
+
+//borda
+.borda-comunicado {
+  width: 7px;
+  background-color: $white;
+
+  @include borda('forca-vendas', '$categ-azul');
+  @include borda('informativos-sun', '$categ-laranja');
+  @include borda('vivo-ligado', 'categ-verde');
+  @include borda('turbine-vendas', 'categ-roxo');
+}

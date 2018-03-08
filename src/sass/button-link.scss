@@ -1,0 +1,53 @@
+a {
+  text-decoration: none;
+  color: $dark-gray;
+
+  &:hover {
+    color: $medium-gray;
+  }
+}
+
+.botoes-tag {
+  font-family: $body-font-family;
+  font-size: $h4-font-size;
+  color: $medium-gray;
+  background: $white;
+  border: $button-border;
+  border-radius: $button-radius;
+  //colocar em config
+  padding: 8px 10px 10px 8px;
+
+  &#info:focus {
+    background-color: $categ-laranja;
+    color: $white;
+  }
+
+  &#forca:focus {
+    background-color: $categ-azul;
+    color: $white;
+  }
+
+  &#vivo:focus {
+    background-color: $categ-verde;
+    color: $white;
+  }
+}
+
+.selecao-tag {
+  //colocar em config
+  margin-bottom: 20px;
+}
+
+.download-arquivo {
+  //colocar em config
+  width: 284px;
+  text-align: center;
+  font-size: $h4-font-size;
+  color: $dark-gray;
+  border: 1px solid #E3E3E3;
+  border-radius: 5px;
+  text-decoration: none !important;
+  background-color: #ffffff;
+  padding: 5px;
+  margin-top: 29px;
+}
