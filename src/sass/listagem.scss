@@ -1,11 +1,10 @@
 .comunicados {
-  width: 320px;
+  width: 346px;
   //colocar em config
-  height: 550px;
+  height: 650px;
   background-color: $background;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 20px;
+  //padding-left: 15px;
+  //padding-right: 15px;
 
   .lido-1 {
     background-color: $lido;
@@ -13,6 +12,9 @@
 }
 
 .listagem-comunicados {
+  padding-left: 15px;
+  padding-right: 15px;
+
   .comunicado-1 {
     width: $listagem-widht;
     height: $listagem-height;
@@ -28,13 +30,8 @@
 }
 
 #download {
+  //colocar em config
   height: 120px;
-}
-
-@mixin borda($nome-borda, $background) {
-  .#{$nome-borda} {
-    background-color: $background;
-  }
 }
 
 .lido {
@@ -43,7 +40,14 @@
 }
 
 //borda
+@mixin borda($nome-borda, $background) {
+  .#{$nome-borda} {
+    background-color: $background;
+  }
+}
+
 .borda-comunicado {
+  //colocar em config
   width: 7px;
   background-color: $white;
 
@@ -51,4 +55,21 @@
   @include borda('informativos-sun', '$categ-laranja');
   @include borda('vivo-ligado', 'categ-verde');
   @include borda('turbine-vendas', 'categ-roxo');
+}
+
+
+//header
+.header-search {
+  background-color: $categ-roxo;
+  //colocar em config
+  width: 100%;
+  height: 75px;
+  margin-bottom: 20px;
+}
+
+.header-status {
+  background-color: #000;
+  opacity: 0.45;
+  height: 24px;
+  width: 100%;
 }

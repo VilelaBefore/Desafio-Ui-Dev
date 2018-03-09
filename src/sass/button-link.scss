@@ -19,23 +19,31 @@ a {
 
   &#info:focus {
     background-color: $categ-laranja;
+    border: 1px solid $categ-laranja;
     color: $white;
+    outline: none;
   }
 
   &#forca:focus {
     background-color: $categ-azul;
+    border: 1px solid $categ-azul;
     color: $white;
+    outline: none;
   }
 
   &#vivo:focus {
     background-color: $categ-verde;
+    border: 1px solid $categ-verde;
     color: $white;
+    outline: none;
   }
 }
 
 .selecao-tag {
   //colocar em config
   margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .download-arquivo {
