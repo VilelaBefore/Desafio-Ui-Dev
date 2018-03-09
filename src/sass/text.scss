@@ -3,6 +3,7 @@
   font-size: $h4-font-size;
   color: $gray;
   //colocar no config
+  margin-bottom: 0.563rem;
 }
 
 .titulo-comunicado {
@@ -13,8 +14,8 @@
   color: $medium-gray;
   //colocar no config
   float: left;
-  top: 10px;
-  left: 20px;
+  top: 0.63rem;
+  left: 1.19rem;
   margin: 0;
 }
 
@@ -26,8 +27,8 @@
   color: $medium-gray;
   //colocar no config
   float: right;
-  top: 10px;
-  right: 10px;
+  top: 0.63rem;
+  right: 0.69rem;
   margin: 0;
 }
 
@@ -39,8 +40,8 @@
   color: $medium-gray;
   //colocar no config
   float: left;
-  bottom: 10px;
-  left: 20px;
+  bottom: 0.63rem;
+  left: 1.25rem;
   margin: 0;
 }
 
@@ -52,7 +53,7 @@
   color: $font-light-gray;
   //colocar no config
   float: right;
-  bottom: 10px;
-  right: 10px;
+  bottom: 0.63rem;
+  right: 0.69rem;
   margin: 0;
 }

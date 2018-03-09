@@ -7,6 +7,13 @@ a {
   }
 }
 
+.selecao-tag {
+  //colocar em config
+  margin-bottom: 1.32rem;
+  padding-left: 0.94rem;
+  padding-right: 0.94rem;
+}
+
 .botoes-tag {
   font-family: $body-font-family;
   font-size: $h4-font-size;
@@ -15,49 +22,47 @@ a {
   border: $button-border;
   border-radius: $button-radius;
   //colocar em config
-  padding: 8px 10px 10px 8px;
-  margin-right: 15px;
+  padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+  margin-right: 0.94rem;
 
   &#info:focus {
     background-color: $categ-laranja;
-    border: 1px solid $categ-laranja;
+    border: 0.063rem solid $categ-laranja;
     color: $white;
     outline: none;
   }
 
   &#forca:focus {
     background-color: $categ-azul;
-    border: 1px solid $categ-azul;
+    border: 0.063rem solid $categ-azul;
     color: $white;
     outline: none;
   }
 
   &#vivo:focus {
     background-color: $categ-verde;
-    border: 1px solid $categ-verde;
+    border: 0.063rem solid $categ-verde;
     color: $white;
     outline: none;
-    position: fixed !important;
   }
 }
 
-.selecao-tag {
-  //colocar em config
-  margin-bottom: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
+#vivo {
+  position: fixed;
 }
+
 
 .download-arquivo {
   //colocar em config
-  width: 284px;
+  width: 18.48rem;
   text-align: center;
   font-size: $h4-font-size;
   color: $dark-gray;
-  border: 1px solid #E3E3E3;
-  border-radius: 5px;
+  border: 0.063rem solid #E3E3E3;
+  border-radius: 0.3rem;
   text-decoration: none !important;
   background-color: #ffffff;
-  padding: 5px;
-  margin-top: 29px;
+  padding: 0.3rem;
+  margin-top: 1.8rem;
 }
+

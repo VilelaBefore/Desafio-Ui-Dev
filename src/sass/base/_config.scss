@@ -16,12 +16,10 @@ $dark-gray: #BDBDBD;
 $gray: #949494;
 $white: #ffffff;
 $font-light-gray: #828282;
-$global-width: 344px;
-$global-padding: 16px;
-$global-margin: 20px;
-$global-radius: 5px;
-$global-rounded: 500px;
-
+$global-width: 21.63rem;
+$global-height: 40rem;
+$global-margin: 1.3rem;
+$global-radius: 0.3rem;
 
 // 2. Tipography
 $global-font-color: $gray;
@@ -30,13 +28,12 @@ $title-font-family: Lato, Verdana, Arial, sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
 $global-line-height: 1.6;
-$global-font-size: 20px;
-$h1-font-size: 20px;
-$h2-font-size: 14px;
-$h3-font-size: 13px;
-$h4-font-size: 12px;
-$h5-font-size: 11px;
-$h6-font-size: 10px;
+$h1-font-size: 1.3rem;
+$h2-font-size: 0.88rem;
+$h3-font-size: 0.81rem;
+$h4-font-size: 0.75rem;
+$h5-font-size: 0.69rem;
+$h6-font-size: 0.63rem;
 
 
 // 3. Button
@@ -51,16 +48,15 @@ $button-background-roxo: $categ-roxo;
 
 $button-font-weight: 100;
 $button-margin: 0 0 $global-margin 0;
-$button-border: 0.5px solid $dark-gray;
-$button-radius: 6px;
-$button-rounded: $global-rounded;
+$button-border: 0.03rem solid $dark-gray;
+$button-radius: 0.38rem;
 
 
 // 4. Listagem
-$listagem-widht: 312px;
+$listagem-widht: 19.8rem;
 $listagem-height: $listagem-widht/5;
 $listagem-border: none;
-$listagem-radius: 5px;
+$listagem-radius: 0.3rem;
 $listagem-position: relative;
 
 $listagem-background: $white;
@@ -86,4 +82,4 @@ $listagem-data-weight: normal;
 $listagem-data-size: $h5-font-size;
 $listagem-data-position: absolute;
 
-$listagem-box-shadow: 0px 3px 8px 0px rgba(51,51,51,0.1);
+$listagem-box-shadow: 0 0.19rem 0.5rem 0 rgba(51,51,51,0.1);
