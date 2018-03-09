@@ -16,6 +16,7 @@ a {
   border-radius: $button-radius;
   //colocar em config
   padding: 8px 10px 10px 8px;
+  margin-right: 15px;
 
   &#info:focus {
     background-color: $categ-laranja;
@@ -36,6 +37,7 @@ a {
     border: 1px solid $categ-verde;
     color: $white;
     outline: none;
+    position: fixed !important;
   }
 }
 
