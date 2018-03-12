@@ -1,76 +1,77 @@
-.comunicados {
+.central {
   width: $global-width;
   height: $global-height;
   background-color: $background;
-  //colocar em config
-  //padding-bottom: 4.19rem;
-
-  .lido-1 {
-    background-color: $lido;
-  }
+  margin: auto;
+  position: relative;
 }
 
-.listagem-comunicados {
+.list-com {
   //colocar em config
-  padding-left: 0.94rem;
-  padding-right: 0.94rem;
+  padding-left: $list-com-padding;
+  padding-right: $list-com-padding;
 
-  .comunicado-1 {
-    width: $listagem-widht;
-    height: $listagem-height;
-    border-radius: $listagem-radius;
-    box-shadow: $listagem-box-shadow;
-    position: $listagem-position;
+  .box-com {
+    width: $list-widht;
+    height: $list-height;
+    border-radius: $list-radius;
+    box-shadow: $list-box-shadow;
+    position: $list-position;
     background-color: $white;
-    //colocar em config
-    margin-bottom: 0.875rem;
-    padding: 0.63rem 0.63rem 0.63rem 15px;
+    margin-bottom: $box-com-margin-bottom;
+    padding: $box-com-padding;
     box-sizing: border-box;
   }
 }
 
 #download {
-  //colocar em config
-  height: 7.5rem;
+  height: $download-com-height;
 }
 
-.lido {
-  //colocar em config
-  opacity: 40%;
+//lido
+#seen-1 {
+  background-color: $list-lido;
+}
+
+#seen-2 {
+  background-color: $list-lido;
 }
 
 //borda
 @mixin borda($nome-borda, $background) {
-  .#{$nome-borda} {
+  &.#{$nome-borda} {
     background-color: $background;
   }
 }
 
-.borda-comunicado {
-  //colocar em config
-  width: 0.44rem;
+.border-com {
+  width: $border-com-width;
+  height: $border-com-height;
+  position: absolute;
   background-color: $white;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: $list-radius;
+  border-top-left-radius: $list-radius;
 
-  @include borda('forca-vendas', '$categ-azul');
-  @include borda('informativos-sun', '$categ-laranja');
-  @include borda('vivo-ligado', 'categ-verde');
-  @include borda('turbine-vendas', 'categ-roxo');
+  @include borda('forca-vendas', $categ-azul);
+  @include borda('informativos-sun', $categ-laranja);
+  @include borda('vivo-ligado', $categ-verde);
+  @include borda('turbine-vendas', $categ-roxo);
 }
 
 
 //header
 .header-search {
   background-color: $categ-roxo;
-  //colocar em config
-  width: 100%;
-  height: 4.69rem;
-  margin-bottom: 1.25rem;
+  width: $header-search-width;
+  height: $header-search-height;
+  margin-bottom: $header-search-margin-bottom;
 }
 
 .header-status {
-  //colocar em config
-  background-color: #000;
-  opacity: 0.45;
-  height: 1.5rem;
-  width: 100%;
+  background-color: $black;
+  opacity: $header-status-opacity;
+  height: $header-status-height;
+  width: $header-status-width;
 }

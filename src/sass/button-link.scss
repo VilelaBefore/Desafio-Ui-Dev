@@ -7,43 +7,40 @@ a {
   }
 }
 
-.selecao-tag {
-  //colocar em config
-  margin-bottom: 1.32rem;
-  padding-left: 0.94rem;
-  padding-right: 0.94rem;
+.select-tag {
+  margin-bottom: $select-margin;
+  padding: $select-padding;
 }
 
-.botoes-tag {
+.button-tag {
   font-family: $body-font-family;
   font-size: $h4-font-size;
   color: $medium-gray;
   background: $white;
   border: $button-border;
   border-radius: $button-radius;
-  //colocar em config
-  padding: 0.5rem 0.6rem 0.5rem 0.6rem;
-  margin-right: 0.94rem;
+  padding: $button-tag-padding;
+  margin-right: $button-tag-margin;
 
   &#info:focus {
     background-color: $categ-laranja;
-    border: 0.063rem solid $categ-laranja;
+    border: $button-info-focus-border;
     color: $white;
-    outline: none;
+    outline: $button-focus-outline;
   }
 
   &#forca:focus {
     background-color: $categ-azul;
-    border: 0.063rem solid $categ-azul;
+    border: $button-forca-focus-border;
     color: $white;
-    outline: none;
+    outline: $button-focus-outline;
   }
 
   &#vivo:focus {
     background-color: $categ-verde;
-    border: 0.063rem solid $categ-verde;
+    border: $button-vivo-focus-border;
     color: $white;
-    outline: none;
+    outline: $button-focus-outline;
   }
 }
 
@@ -52,17 +49,17 @@ a {
 }
 
 
-.download-arquivo {
-  //colocar em config
-  width: 18.48rem;
+.download-file {
+  width: $download-width;
+  height: $download-height;
   text-align: center;
   font-size: $h4-font-size;
   color: $dark-gray;
-  border: 0.063rem solid #E3E3E3;
-  border-radius: 0.3rem;
+  border: $download-border;
+  border-radius: $download-radius;
   text-decoration: none !important;
-  background-color: #ffffff;
-  padding: 0.3rem;
-  margin-top: 1.8rem;
+  background-color: $white;
+  padding: $download-padding;
+  margin-top: $download-margin-top;
 }
 
