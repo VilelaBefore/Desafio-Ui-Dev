@@ -1,24 +1,38 @@
 .img-download{
   height: 1.44rem;
-  float: right;
+  justify-content: flex-end;
+  margin-left: 2rem;
 }
 
 .img-pdf{
-  height: 1.44rem;
-  float: left;
+  height: 2rem;
+  justify-content: flex-start;
+  margin-right: 0.5rem;
 }
 
+
+
 .icn-menu {
-  float: left;
+  //float: left;
   padding-left: 0.94rem;
-  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  justify-content: flex-start;
+  //order: 1;
+  //flex: 0 1 auto;
+  //align-self: auto;
 }
 
 .icn-search {
-  float: right;
   padding-right: 0.94rem;
-  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  justify-content: flex-end;
+  //order: 2;
+  //flex: 0 1 auto;
+  //align-self: auto;
 }
+
+
+
 
 .icn-time {
   float: right;

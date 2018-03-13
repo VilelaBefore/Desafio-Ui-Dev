@@ -4,6 +4,7 @@
   background-color: $background;
   margin: auto;
   position: relative;
+  overflow: hidden;
 }
 
 .list-com {
@@ -67,6 +68,10 @@
   width: $header-search-width;
   height: $header-search-height;
   margin-bottom: $header-search-margin-bottom;
+  display: flex;
+  flex-flow: row;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .header-status {

@@ -50,9 +50,9 @@ $button-background-azul: $categ-azul;
 $button-background-laranja: $categ-laranja;
 $button-background-roxo: $categ-roxo;
 
-$button-info-focus-border: 0.063rem solid $categ-laranja;
-$button-forca-focus-border: 0.063rem solid $categ-azul;
-$button-vivo-focus-border: 0.063rem solid $categ-verde;
+$button-info-focus-border: 0.03rem solid $categ-laranja;
+$button-forca-focus-border: 0.03rem solid $categ-azul;
+$button-vivo-focus-border: 0.03rem solid $categ-verde;
 $button-focus-outline: none;
 
 $button-font-weight: 100;
@@ -70,7 +70,7 @@ $download-width: 18.48rem;
 $download-height: 2.98rem;
 $download-border: 0.063rem solid $border;
 $download-radius: $global-radius;
-$download-padding: 0.32rem 0.75rem 0.32rem 0.75rem;
+$download-padding: 0.32rem 0.75rem 0.32rem 0.4rem;
 $download-margin-top: 1.8rem;
 
 
@@ -124,4 +124,4 @@ $header-status-width: 100%;
 
 $header-search-height: 4.69rem;
 $header-search-width: 100%;
-$header-search-margin-bottom: 1.25rem;
+$header-search-margin-bottom: 1rem;
