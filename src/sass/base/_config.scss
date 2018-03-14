@@ -1,7 +1,8 @@
 //   1. Global
 //   2. Tipography
 //   3. Button
-//   4. Listagem
+//   4. List
+//   5. Header
 
 
 // 1. Global
@@ -20,7 +21,7 @@ $gray: #949494;
 $white: #ffffff;
 $font-light-gray: #828282;
 $global-width: 21.63rem;
-$global-height: 41rem;
+$global-height: 40rem;
 $global-margin: 1.3rem;
 $global-radius: 0.3rem;
 
@@ -73,9 +74,10 @@ $download-border: 0.063rem solid $border;
 $download-radius: $global-radius;
 $download-padding: 0.32rem 0.75rem 0.32rem 0.4rem;
 $download-margin-top: 1.8rem;
+$download-margin-left: 0.3rem;
 
 
-// 4. Listagem
+// 4. List
 $list-widht: 19.8rem;
 $list-height: $list-widht/5;
 $list-border: none;

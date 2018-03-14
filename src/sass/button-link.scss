@@ -17,6 +17,8 @@ a {
   margin-bottom: $select-margin;
   padding: $select-padding;
   overflow-x: scroll;
+  display: flex;
+  white-space: nowrap;
 }
 
 .button-tag {
@@ -27,7 +29,8 @@ a {
   border: $button-border;
   border-radius: $button-radius;
   padding: $button-tag-padding;
-  margin-right: 0.4rem;
+  margin-right: .94rem;
+  display: inline-block;
 
   &.info:focus {
     background-color: $categ-laranja;
@@ -58,14 +61,6 @@ a {
   }
 }
 
-.vivo {
-  margin-top: 0.4rem;
-}
-
-.vendas {
-  margin-top: 0.4rem;
-}
-
 .download-file {
   width: $download-width;
   height: $download-height;
@@ -78,6 +73,7 @@ a {
   background-color: $white;
   padding: $download-padding;
   margin-top: $download-margin-top;
+  margin-left: $download-margin-left;
   display: flex;
   justify-content: center;
 }

@@ -57,7 +57,9 @@ a {
 .select-tag {
   margin-bottom: 1.32rem;
   padding: 0 0.94rem 0 0.94rem;
-  overflow-x: scroll; }
+  overflow-x: scroll;
+  display: flex;
+  white-space: nowrap; }
 
 .button-tag {
   font-family: Open Sans, Lato, Verdana, Arial, sans-serif;
@@ -67,7 +69,8 @@ a {
   border: 0.03rem solid #BDBDBD;
   border-radius: 0.38rem;
   padding: 0.5rem 0.6rem 0.5rem 0.6rem;
-  margin-right: 0.4rem; }
+  margin-right: .94rem;
+  display: inline-block; }
   .button-tag.info:focus {
     background-color: #FF9900;
     border: 0.03rem solid #FF9900;
@@ -89,12 +92,6 @@ a {
     color: #ffffff;
     outline: none; }
 
-.vivo {
-  margin-top: 0.4rem; }
-
-.vendas {
-  margin-top: 0.4rem; }
-
 .download-file {
   width: 18.48rem;
   height: 2.98rem;
@@ -107,12 +104,13 @@ a {
   background-color: #ffffff;
   padding: 0.32rem 0.75rem 0.32rem 0.4rem;
   margin-top: 1.8rem;
+  margin-left: 0.3rem;
   display: flex;
   justify-content: center; }
 
 .central {
   width: 21.63rem;
-  height: 41rem;
+  height: 40rem;
   background-color: #E5E5E5;
   margin: auto;
   position: relative; }
@@ -174,6 +172,9 @@ a {
   opacity: 0.45;
   height: 1.5rem;
   width: 100%; }
+
+li {
+  display: inline-block; }
 
 .title-page {
   font-weight: bold;
