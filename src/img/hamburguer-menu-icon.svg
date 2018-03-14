@@ -1,0 +1,20 @@
+<svg width="18" height="14" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>hamburguer-menu-icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3216 328)">
+<g id="hamburguer-menu-icon" opacity="0.6">
+<g id="Line">
+<use xlink:href="#path0_stroke" transform="translate(3216 -326)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path0_stroke" transform="translate(3216 -320)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path0_stroke" transform="translate(3216 -314)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 1 -2C 0.447715 -2 0 -1.55228 0 -1C 0 -0.447715 0.447715 0 1 0L 1 -2ZM 17 0C 17.5523 0 18 -0.447715 18 -1C 18 -1.55228 17.5523 -2 17 -2L 17 0ZM 1 0L 17 0L 17 -2L 1 -2L 1 0Z"/>
+</defs>
+</svg>
