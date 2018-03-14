@@ -1,38 +1,90 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio Front-end Before</title>
-    <link rel="stylesheet" href="css/styles.css"/>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Comunicados</title>
+  <link rel="stylesheet" href="css/styles.css"/>
 </head>
+
 <body>
+<div class="central">
 
-<h1>Olá.</h1>
-<div>
-  <p>
-    Fizemos esse setup inicial para você focar no que interessa, que são os seguintes pontos:
-  </p>
-  <ul>
-    <li>Organização do código;</li>
-    <li>Utilização correta dos recursos que o HTML e SASS oferecem;</li>
+  <div class="header-search">
+    <div class="header-status">
+      <img src="./assets/img/icn-time.svg" class="icn-time" alt="Horário">
+      <img src="./assets/img/icn-battery.svg" class="icn-battery" alt="Nível de bateria">
+      <img src="./assets/img/icn-reception.svg" class="icn-reception" alt="Sinal">
+      <img src="./assets/img/icn-wifi.svg" class="icn-wifi" alt="WIFI">
+    </div>
+    <img src="./assets/img/icn-menu.svg" class="icn-menu" alt="Menu">
+    <p class="title-page">Comunicados</p>
+    <img src="./assets/img/icn-search.svg" class="icn-search" alt="Pesquisa">
+  </div>
+
+  <p class="title-1">Categorias</p>
+  <ul class="select-tag">
+    <li>
+      <button type="button" class="button-tag info">Informativos SUN</button>
+    </li>
+    <li>
+      <button type="button" class="button-tag forca">Força de Vendas</button>
+    </li>
+    <li>
+      <button type="button" class="button-tag vivo">Vivo Ligado</button>
+    </li>
+    <li>
+      <button type="button" class="button-tag vendas">Turbine suas Vendas</button>
+    </li>
   </ul>
-  <p>
-    mas se você quiser mudar toda a estrutura de arquivos, nomes e até a biblioteca de build, fique à vontade.
-  </p>
 
-  <h3>Orientações</h3>
+  <ul class="list-com">
+    <li class="box-com">
+      <div class="border-com forca-vendas"></div>
+      <p class="title-com">Metas Março</p>
+      <p class="number-com">1515</p>
+      <p class="category-com">Força de Vendas</p>
+      <p class="date-com">11/02/2018 - 16h30</p>
+    </li>
 
-  <ul>
-    <li>Quando terminar, tire um print da sua tela e coloque na pasta, "seu-print-aqui";</li>
-    <li>Verifique se está tudo ok e faça seu commit com todos os arquivos que você criou e alterou;</li>
-    <li>Por último, faça um pull request para o repositório base.</li>
+    <li class="box-com">
+      <div class="border-com informativos-sun"></div>
+      <p class="title-com">Bônus Fevereiro</p>
+      <p class="number-com">1505</p>
+      <p class="category-com">Informativo SUN</p>
+      <p class="date-com">11/02/2018 - 16h30</p>
+    </li>
+
+    <li class="box-com download">
+      <div class="border-com vivo-ligado"></div>
+      <p class="title-com">Novos serviços</p>
+      <p class="number-com">1495</p>
+      <button type="button" class="download-file">
+        <img src="./assets/img/icn-pdf.svg" alt="Arquivo PDF" class="img-pdf">
+        <a href="novosservicos.pdf" download class="link-button">novos_servicos_mar_2018.pdf</a>
+        <img src="./assets/img/icn-download.svg" alt="Nuvem download" class="img-download">
+      </button>
+      <p class="category-com">Vivo Ligado</p>
+      <p class="date-com">11/02/2018 - 16h30</p>
+    </li>
+
+    <li class="box-com lido">
+      <div class="border-com turbine-vendas"></div>
+      <p class="title-com">Resumo mensal</p>
+      <p class="number-com">1485</p>
+      <p class="category-com">Turbine Suas Vendas</p>
+      <p class="date-com">11/02/2018 - 16h30</p>
+    </li>
+
+    <li class="box-com lido">
+      <div class="border-com informativos-sun"></div>
+      <p class="title-com">Bônus Outubro</p>
+      <p class="number-com">14755</p>
+      <p class="category-com">Informativo SUN</p>
+      <p class="date-com">11/02/2018 - 16h30</p>
+    </li>
   </ul>
-
-  <h3>Boa sorte!</h3>
 
 </div>
 
-<script src="js/scripts.js"></script>
 </body>
 </html>

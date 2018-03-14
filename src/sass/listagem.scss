@@ -1,0 +1,85 @@
+.central {
+  width: $global-width;
+  height: $global-height;
+  background-color: $background;
+  margin: auto;
+  position: relative;
+}
+
+.list-com {
+  //colocar em config
+  padding-left: $list-com-padding;
+  padding-right: $list-com-padding;
+
+  .box-com {
+    width: $list-widht;
+    height: $list-height;
+    border-radius: $list-radius;
+    box-shadow: $list-box-shadow;
+    position: $list-position;
+    background-color: $white;
+    margin-bottom: $box-com-margin-bottom;
+    padding: $box-com-padding;
+    box-sizing: border-box;
+
+    &.lido {
+      background-color: $list-lido;
+
+      %border-com {
+        opacity: 0.4;
+      }
+    }
+
+    &.download {
+      height: $download-com-height;
+    }
+  }
+}
+
+%border-com {
+  width: $border-com-width;
+  height: $border-com-height;
+  position: absolute;
+  background-color: $white;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: $list-radius;
+  border-top-left-radius: $list-radius;
+}
+
+//borda
+@mixin borda($nome-borda, $background) {
+  .#{$nome-borda} {
+    @extend %border-com;
+    background-color: $background;
+  }
+}
+
+@include borda('forca-vendas', $categ-azul);
+@include borda('informativos-sun', $categ-laranja);
+@include borda('vivo-ligado', $categ-verde);
+@include borda('turbine-vendas', $categ-roxo);
+
+
+//header
+.header-search {
+  background-color: $categ-roxo;
+  width: $header-search-width;
+  height: $header-search-height;
+  margin-bottom: $header-search-margin-bottom;
+  display: flex;
+  flex-flow: row;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.header-status {
+  background-color: $black;
+  opacity: $header-status-opacity;
+  height: $header-status-height;
+  width: $header-status-width;
+}
+
+li {
+  display: inline-block;
+}

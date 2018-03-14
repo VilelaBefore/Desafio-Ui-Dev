@@ -1,0 +1,76 @@
+.title-page {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: $white;
+  font-family: $body-font-family;
+  flex: 1 0 auto;
+  padding-top: 0.4rem;
+  margin-left: 0.94rem;
+}
+
+.title-1 {
+  font-family: $body-font-family;
+  font-size: $h4-font-size;
+  color: $gray;
+  //colocar no config
+  margin-bottom: 0.57rem;
+  padding: $select-padding;
+}
+
+.title-com {
+  font-family: $list-title-font;
+  font-weight: $list-title-weight;
+  font-size: $list-title-size;
+  position: $list-title-position;
+  color: $medium-gray;
+  //colocar no config
+  float: left;
+  top: 0.63rem;
+  left: 1.19rem;
+  margin: 0;
+}
+
+.number-com {
+  font-family: $list-number-font;
+  font-weight: $list-number-weight;
+  font-size: $list-number-size;
+  position: $list-number-position;
+  color: $medium-gray;
+  //colocar no config
+  float: right;
+  top: 0.63rem;
+  right: 0.69rem;
+  margin: 0;
+}
+
+.category-com {
+  font-family: $list-category-font;
+  font-weight: $list-category-weight;
+  font-size: $list-category-size;
+  position: $list-category-position;
+  color: $medium-gray;
+  //colocar no config
+  float: left;
+  bottom: 0.63rem;
+  left: 1.25rem;
+  margin: 0;
+}
+
+.date-com {
+  font-family: $list-date-font;
+  font-weight: $list-date-weight;
+  font-size: $list-date-size;
+  position: $list-date-position;
+  color: $font-light-gray;
+  //colocar no config
+  float: right;
+  bottom: 0.63rem;
+  right: 0.69rem;
+  margin: 0;
+}
+
+.link-button {
+  vertical-align: middle;
+  display: flex;
+  margin-top: 0.6rem;
+}

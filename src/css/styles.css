@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  display: none !important; }
+
+a {
+  text-decoration: none;
+  color: #BDBDBD; }
+  a:hover {
+    color: #4F4F4F; }
+
+.select-tag {
+  margin-bottom: 1.32rem;
+  padding: 0 0.94rem 0 0.94rem;
+  overflow-x: scroll;
+  display: flex;
+  white-space: nowrap; }
+
+.button-tag {
+  font-family: Open Sans, Lato, Verdana, Arial, sans-serif;
+  font-size: 0.75rem;
+  color: #4F4F4F;
+  background: #ffffff;
+  border: 0.03rem solid #BDBDBD;
+  border-radius: 0.38rem;
+  padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+  margin-right: .94rem;
+  display: inline-block; }
+  .button-tag.info:focus {
+    background-color: #FF9900;
+    border: 0.03rem solid #FF9900;
+    color: #ffffff;
+    outline: none; }
+  .button-tag.forca:focus {
+    background-color: #56CCF2;
+    border: 0.03rem solid #56CCF2;
+    color: #ffffff;
+    outline: none; }
+  .button-tag.vivo:focus {
+    background-color: #79C126;
+    border: 0.03rem solid #79C126;
+    color: #ffffff;
+    outline: none; }
+  .button-tag.vendas:focus {
+    background-color: #660099;
+    border: 0.03rem solid #660099;
+    color: #ffffff;
+    outline: none; }
+
+.download-file {
+  width: 18.48rem;
+  height: 2.98rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #BDBDBD;
+  border: 0.063rem solid #E3E3E3;
+  border-radius: 0.3rem;
+  text-decoration: none !important;
+  background-color: #ffffff;
+  padding: 0.32rem 0.75rem 0.32rem 0.4rem;
+  margin-top: 1.8rem;
+  margin-left: 0.3rem;
+  display: flex;
+  justify-content: center; }
+
+.central {
+  width: 21.63rem;
+  height: 40rem;
+  background-color: #E5E5E5;
+  margin: auto;
+  position: relative; }
+
+.list-com {
+  padding-left: 0.94rem;
+  padding-right: 0.94rem; }
+  .list-com .box-com {
+    width: 19.8rem;
+    height: 3.96rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.19rem 0.5rem 0 rgba(51, 51, 51, 0.1);
+    position: relative;
+    background-color: #ffffff;
+    margin-bottom: 0.875rem;
+    padding: 0.63rem;
+    box-sizing: border-box; }
+    .list-com .box-com.lido {
+      background-color: #EBEBEB; }
+      .list-com .box-com.lido .forca-vendas, .list-com .box-com.lido .informativos-sun, .list-com .box-com.lido .vivo-ligado, .list-com .box-com.lido .turbine-vendas {
+        opacity: 0.4; }
+    .list-com .box-com.download {
+      height: 7.5rem; }
+
+.forca-vendas, .informativos-sun, .vivo-ligado, .turbine-vendas {
+  width: 0.44rem;
+  height: 100%;
+  position: absolute;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 0.3rem;
+  border-top-left-radius: 0.3rem; }
+
+.forca-vendas {
+  background-color: #56CCF2; }
+
+.informativos-sun {
+  background-color: #FF9900; }
+
+.vivo-ligado {
+  background-color: #79C126; }
+
+.turbine-vendas {
+  background-color: #660099; }
+
+.header-search {
+  background-color: #660099;
+  width: 100%;
+  height: 4.69rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-flow: row;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.header-status {
+  background-color: #000;
+  opacity: 0.45;
+  height: 1.5rem;
+  width: 100%; }
+
+li {
+  display: inline-block; }
+
+.title-page {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-family: Open Sans, Lato, Verdana, Arial, sans-serif;
+  flex: 1 0 auto;
+  padding-top: 0.4rem;
+  margin-left: 0.94rem; }
+
+.title-1 {
+  font-family: Open Sans, Lato, Verdana, Arial, sans-serif;
+  font-size: 0.75rem;
+  color: #949494;
+  margin-bottom: 0.57rem;
+  padding: 0 0.94rem 0 0.94rem; }
+
+.title-com {
+  font-family: Open Sans, Lato, Verdana, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 0.81rem;
+  position: absolute;
+  color: #4F4F4F;
+  float: left;
+  top: 0.63rem;
+  left: 1.19rem;
+  margin: 0; }
+
+.number-com {
+  font-family: Open Sans, Lato, Verdana, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 0.88rem;
+  position: absolute;
+  color: #4F4F4F;
+  float: right;
+  top: 0.63rem;
+  right: 0.69rem;
+  margin: 0; }
+
+.category-com {
+  font-family: Open Sans, Lato, Verdana, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 0.63rem;
+  position: absolute;
+  color: #4F4F4F;
+  float: left;
+  bottom: 0.63rem;
+  left: 1.25rem;
+  margin: 0; }
+
+.date-com {
+  font-family: Open Sans, Lato, Verdana, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 0.69rem;
+  position: absolute;
+  color: #828282;
+  float: right;
+  bottom: 0.63rem;
+  right: 0.69rem;
+  margin: 0; }
+
+.link-button {
+  vertical-align: middle;
+  display: flex;
+  margin-top: 0.6rem; }
+
+.img-download {
+  height: 1.44rem;
+  justify-content: flex-end;
+  margin-left: 2rem;
+  margin-top: 0.3rem; }
+
+.img-pdf {
+  height: 2rem;
+  justify-content: flex-start;
+  margin-right: 0.5rem; }
+
+.icn-menu {
+  padding-left: 0.94rem;
+  padding-bottom: 0.8rem;
+  justify-content: flex-start;
+  flex: 0 0 auto; }
+
+.icn-search {
+  padding-right: 0.94rem;
+  padding-bottom: 0.8rem;
+  justify-content: flex-end;
+  flex: 0 0 auto; }
+
+.icn-time {
+  float: right;
+  padding-top: 0.44rem;
+  padding-right: 0.5rem; }
+
+.icn-battery {
+  float: right;
+  padding-top: 0.3rem;
+  padding-right: 0.5rem; }
+
+.icn-reception {
+  float: right;
+  padding-top: 0.3rem;
+  padding-right: 0.5rem; }
+
+.icn-wifi {
+  float: right;
+  padding-top: 0.3rem;
+  padding-right: 0.3rem; }
+
+/*# sourceMappingURL=styles.css.map */

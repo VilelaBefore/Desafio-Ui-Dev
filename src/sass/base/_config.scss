@@ -1,1 +1,130 @@
-// Your variables here!
+//   1. Global
+//   2. Tipography
+//   3. Button
+//   4. List
+//   5. Header
+
+
+// 1. Global
+$categ-verde: #79C126;
+$categ-laranja: #FF9900;
+$categ-azul: #56CCF2;
+$categ-roxo: #660099;
+$black: #000;
+$background-lido: #EBEBEB;
+$background: #E5E5E5;
+$border: #E3E3E3;
+$lido: #EBEBEB;
+$medium-gray: #4F4F4F;
+$dark-gray: #BDBDBD;
+$gray: #949494;
+$white: #ffffff;
+$font-light-gray: #828282;
+$global-width: 21.63rem;
+$global-height: 40rem;
+$global-margin: 1.3rem;
+$global-radius: 0.3rem;
+
+
+// 2. Tipography
+$global-font-color: $gray;
+$body-font-family: Open Sans, Lato, Verdana, Arial, sans-serif;
+$title-font-family: Lato, Verdana, Arial, sans-serif;
+$global-font-weight: normal;
+$header-color: inherit;
+$global-line-height: 1.6;
+$h1-font-size: 1.3rem;
+$h2-font-size: 0.88rem;
+$h3-font-size: 0.81rem;
+$h4-font-size: 0.75rem;
+$h5-font-size: 0.69rem;
+$h6-font-size: 0.63rem;
+
+
+// 3. Button
+$button-color: $dark-gray;
+$button-color-select: $white;
+
+$button-background: $white;
+$button-background-verde: $categ-verde;
+$button-background-azul: $categ-azul;
+$button-background-laranja: $categ-laranja;
+$button-background-roxo: $categ-roxo;
+
+$button-info-focus-border: 0.03rem solid $categ-laranja;
+$button-forca-focus-border: 0.03rem solid $categ-azul;
+$button-vivo-focus-border: 0.03rem solid $categ-verde;
+$button-vendas-focus-border: 0.03rem solid $categ-roxo;
+$button-focus-outline: none;
+
+$button-font-weight: 100;
+$button-margin: 0 0 $global-margin 0;
+$button-border: 0.03rem solid $dark-gray;
+$button-radius: 0.38rem;
+
+$button-tag-padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+$button-tag-margin: 0.94rem;
+
+$select-padding: 0 0.94rem 0 0.94rem;
+$select-margin: 1.32rem;
+
+$download-width: 18.48rem;
+$download-height: 2.98rem;
+$download-border: 0.063rem solid $border;
+$download-radius: $global-radius;
+$download-padding: 0.32rem 0.75rem 0.32rem 0.4rem;
+$download-margin-top: 1.8rem;
+$download-margin-left: 0.3rem;
+
+
+// 4. List
+$list-widht: 19.8rem;
+$list-height: $list-widht/5;
+$list-border: none;
+$list-radius: $global-radius;
+$list-position: relative;
+
+$list-background: $white;
+$list-background-lido: rgba(0, 0, 0, 0.05);
+$list-lido: $background-lido;
+
+$list-title-font: $body-font-family;
+$list-title-weight: bold;
+$list-title-size: $h3-font-size;
+$list-title-position: absolute;
+
+$list-number-font: $body-font-family;
+$list-number-weight: bold;
+$list-number-size: $h2-font-size;
+$list-number-position: absolute;
+
+$list-category-font: $body-font-family;
+$list-category-weight: normal;
+$list-category-size: $h6-font-size;
+$list-category-position: absolute;
+
+$list-date-font: $body-font-family;
+$list-date-weight: normal;
+$list-date-size: $h5-font-size;
+$list-date-position: absolute;
+
+$list-box-shadow: 0 0.19rem 0.5rem 0 rgba(51,51,51,0.1);
+
+$list-com-padding: 0.94rem;
+
+$border-com-width: 0.44rem;
+$border-com-height: 100%;
+
+$download-com-height: 7.5rem;
+
+$box-com-margin-bottom: 0.875rem;
+$box-com-padding: 0.63rem;
+
+//5. Header
+$header-status-opacity: 0.45;
+$header-status-height: 1.5rem;
+$header-status-width: 100%;
+
+$header-search-height: 4.69rem;
+$header-search-width: 100%;
+$header-search-margin-bottom: 1rem;

@@ -1,0 +1,80 @@
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  display: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-gray;
+
+  &:hover {
+    color: $medium-gray;
+  }
+}
+
+.select-tag {
+  margin-bottom: $select-margin;
+  padding: $select-padding;
+  overflow-x: scroll;
+  display: flex;
+  white-space: nowrap;
+}
+
+.button-tag {
+  font-family: $body-font-family;
+  font-size: $h4-font-size;
+  color: $medium-gray;
+  background: $white;
+  border: $button-border;
+  border-radius: $button-radius;
+  padding: $button-tag-padding;
+  margin-right: .94rem;
+  display: inline-block;
+
+  &.info:focus {
+    background-color: $categ-laranja;
+    border: $button-info-focus-border;
+    color: $white;
+    outline: $button-focus-outline;
+  }
+
+  &.forca:focus {
+    background-color: $categ-azul;
+    border: $button-forca-focus-border;
+    color: $white;
+    outline: $button-focus-outline;
+  }
+
+  &.vivo:focus {
+    background-color: $categ-verde;
+    border: $button-vivo-focus-border;
+    color: $white;
+    outline: $button-focus-outline;
+  }
+
+  &.vendas:focus {
+    background-color: $categ-roxo;
+    border: $button-vendas-focus-border;
+    color: $white;
+    outline: $button-focus-outline;
+  }
+}
+
+.download-file {
+  width: $download-width;
+  height: $download-height;
+  text-align: center;
+  font-size: $h4-font-size;
+  color: $dark-gray;
+  border: $download-border;
+  border-radius: $download-radius;
+  text-decoration: none !important;
+  background-color: $white;
+  padding: $download-padding;
+  margin-top: $download-margin-top;
+  margin-left: $download-margin-left;
+  display: flex;
+  justify-content: center;
+}
+

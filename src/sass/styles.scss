@@ -1,4 +1,8 @@
-@import 'base/config';
+@import '../../node_modules/reset-css/_reset';
 
-// -> Use se preferir
-//@import '../../node_modules/reset-css/_reset';
+@import 'base/config';
+@import 'button-link';
+@import 'listagem';
+@import 'text';
+@import 'images';
+

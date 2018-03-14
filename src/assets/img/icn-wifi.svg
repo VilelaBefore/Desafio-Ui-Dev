@@ -1,0 +1,32 @@
+<svg width="16" height="12" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icn-wifi</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3440 365)">
+<g id="icn-wifi">
+<mask id="mask0_outline" mask-type="alpha">
+<g id="wifi mask">
+<use xlink:href="#path0_fill" transform="translate(3440 -365)" fill="#FFFFFF"/>
+</g>
+</mask>
+<g id="Shape" mask="url(#mask0_outline)">
+<use xlink:href="#path1_fill" transform="translate(3436 -365)" fill="#FFFFFF" fill-opacity="0.3"/>
+</g>
+<g id="Shape" mask="url(#mask0_outline)">
+<use xlink:href="#path2_fill" transform="translate(3439 -362)" fill="#FFFFFF" fill-opacity="0.9"/>
+</g>
+<g id="Shape" mask="url(#mask0_outline)">
+<use xlink:href="#path3_fill" transform="translate(3442 -359)" fill="#FFFFFF" fill-opacity="0.9"/>
+</g>
+<g id="Oval" mask="url(#mask0_outline)">
+<use xlink:href="#path4_fill" transform="translate(3445 -356)" fill="#FFFFFF" fill-opacity="0.9"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 8 12L 16 0L 0 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 12 0C 5.4 0 0 5.4 0 12C 0 18.6 5.4 24 12 24C 18.6 24 24 18.6 24 12C 24 5.4 18.6 0 12 0ZM 12 21C 7 21 3 17 3 12C 3 7 7 3 12 3C 17 3 21 7 21 12C 21 17 17 21 12 21Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 9 0C 4 0 0 4 0 9C 0 14 4 18 9 18C 14 18 18 14 18 9C 18 4 14 0 9 0ZM 9 15C 5.7 15 3 12.3 3 9C 3 5.7 5.7 3 9 3C 12.3 3 15 5.7 15 9C 15 12.3 12.3 15 9 15Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 6 0C 2.7 0 0 2.7 0 6C 0 9.3 2.7 12 6 12C 9.3 12 12 9.3 12 6C 12 2.7 9.3 0 6 0ZM 6 9C 4.3 9 3 7.7 3 6C 3 4.3 4.3 3 6 3C 7.7 3 9 4.3 9 6C 9 7.7 7.7 9 6 9Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 3 6C 4.65685 6 6 4.65685 6 3C 6 1.34315 4.65685 0 3 0C 1.34315 0 0 1.34315 0 3C 0 4.65685 1.34315 6 3 6Z"/>
+</defs>
+</svg>
