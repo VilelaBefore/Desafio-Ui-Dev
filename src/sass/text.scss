@@ -1,9 +1,20 @@
+.title-page {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: $white;
+  font-family: $body-font-family;
+  flex: 1 0 auto;
+  padding-top: 0.4rem;
+  margin-left: 0.94rem;
+}
+
 .title-1 {
   font-family: $body-font-family;
   font-size: $h4-font-size;
   color: $gray;
   //colocar no config
-  margin-bottom: 0.563rem;
+  margin-bottom: 0.57rem;
+  padding: $select-padding;
 }
 
 .title-com {
@@ -61,7 +72,5 @@
 .link-button {
   vertical-align: middle;
   display: flex;
-  height: 300px;
-  //justify-content: center;
-  //align-items: center;
+  margin-top: 0.6rem;
 }

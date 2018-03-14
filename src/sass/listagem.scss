@@ -4,7 +4,6 @@
   background-color: $background;
   margin: auto;
   position: relative;
-  overflow: hidden;
 }
 
 .list-com {
@@ -22,30 +21,22 @@
     margin-bottom: $box-com-margin-bottom;
     padding: $box-com-padding;
     box-sizing: border-box;
+
+    &.lido {
+      background-color: $list-lido;
+
+      %border-com {
+        opacity: 0.4;
+      }
+    }
+
+    &.download {
+      height: $download-com-height;
+    }
   }
 }
 
-#download {
-  height: $download-com-height;
-}
-
-//lido
-#seen-1 {
-  background-color: $list-lido;
-}
-
-#seen-2 {
-  background-color: $list-lido;
-}
-
-//borda
-@mixin borda($nome-borda, $background) {
-  &.#{$nome-borda} {
-    background-color: $background;
-  }
-}
-
-.border-com {
+%border-com {
   width: $border-com-width;
   height: $border-com-height;
   position: absolute;
@@ -54,12 +45,20 @@
   left: 0;
   border-bottom-left-radius: $list-radius;
   border-top-left-radius: $list-radius;
-
-  @include borda('forca-vendas', $categ-azul);
-  @include borda('informativos-sun', $categ-laranja);
-  @include borda('vivo-ligado', $categ-verde);
-  @include borda('turbine-vendas', $categ-roxo);
 }
+
+//borda
+@mixin borda($nome-borda, $background) {
+  .#{$nome-borda} {
+    @extend %border-com;
+    background-color: $background;
+  }
+}
+
+@include borda('forca-vendas', $categ-azul);
+@include borda('informativos-sun', $categ-laranja);
+@include borda('vivo-ligado', $categ-verde);
+@include borda('turbine-vendas', $categ-roxo);
 
 
 //header

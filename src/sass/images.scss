@@ -2,6 +2,7 @@
   height: 1.44rem;
   justify-content: flex-end;
   margin-left: 2rem;
+  margin-top: 0.3rem;
 }
 
 .img-pdf{
@@ -13,22 +14,17 @@
 
 
 .icn-menu {
-  //float: left;
   padding-left: 0.94rem;
   padding-bottom: 0.8rem;
   justify-content: flex-start;
-  //order: 1;
-  //flex: 0 1 auto;
-  //align-self: auto;
+  flex: 0 0 auto;
 }
 
 .icn-search {
   padding-right: 0.94rem;
   padding-bottom: 0.8rem;
   justify-content: flex-end;
-  //order: 2;
-  //flex: 0 1 auto;
-  //align-self: auto;
+  flex: 0 0 auto;
 }
 
 

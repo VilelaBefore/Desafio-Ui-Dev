@@ -27,35 +27,44 @@ a {
   border: $button-border;
   border-radius: $button-radius;
   padding: $button-tag-padding;
-  margin-right: $button-tag-margin;
+  margin-right: 0.4rem;
 
-  &#info:focus {
+  &.info:focus {
     background-color: $categ-laranja;
     border: $button-info-focus-border;
     color: $white;
     outline: $button-focus-outline;
   }
 
-  &#forca:focus {
+  &.forca:focus {
     background-color: $categ-azul;
     border: $button-forca-focus-border;
     color: $white;
     outline: $button-focus-outline;
   }
 
-  &#vivo:focus {
+  &.vivo:focus {
     background-color: $categ-verde;
     border: $button-vivo-focus-border;
     color: $white;
     outline: $button-focus-outline;
   }
+
+  &.vendas:focus {
+    background-color: $categ-roxo;
+    border: $button-vendas-focus-border;
+    color: $white;
+    outline: $button-focus-outline;
+  }
 }
 
-#vivo {
-  display: inline-block;
-  position: fixed;
+.vivo {
+  margin-top: 0.4rem;
 }
 
+.vendas {
+  margin-top: 0.4rem;
+}
 
 .download-file {
   width: $download-width;
